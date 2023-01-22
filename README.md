@@ -1,5 +1,5 @@
-# JCI-Splunk-addon / Johnson Control
-A none-official JCI app for Splunk to get audit data from your Johnson Control smart-workspace app to your Splunk enviroment using REST API.
+# JCI-Splunk-addon / Johnson Control Smart Building
+A none-official JCI app for Splunk to get audit data from your Johnson Control Smart-Building app to your Splunk enviroment using REST API.
 Current version - 1.0.0
 
 # Intsalling the app
