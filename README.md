@@ -30,7 +30,8 @@ When clicking on creating a new data input for the app there are several paramet
 - time_delta - This feature is a dependent of the Run_time feature. If you have enabled and set a Run_time condition, you can also define a time delta for your run time condition to make sure it is cought in between the your time condition and the Splunk running interval the app.
 Of course you could run the app every 60 seconds, but in order to save resources, I have decided to implement a time_delta feature to allow the user (you) to set larger Splunk intervals for this app and still use the Run_time condition.
 - Fetch_for_past + Time_unit - set your desired look-back range; e.g. - 5 minutes / 3 hours / 10 days etc.
-- Verify SSL - This checkbox allows you to control wether you would like to include an SSL verification with every HTTP request made by this app. 
+- Verify SSL - This checkbox allows you to control wether you would like to include an SSL verification with every HTTP request made by this app.
+- Proxy - In any case you need to use a proxy server, simply configure your proxy under 'Configuration' tab in the app's main page.
 
 # Contact me
 Found a bug? want to request a new feature? missing data? API updated?
