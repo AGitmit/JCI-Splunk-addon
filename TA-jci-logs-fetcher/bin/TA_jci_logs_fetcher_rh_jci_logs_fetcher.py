@@ -12,7 +12,8 @@ from splunk_aoblib.rest_migration import ConfigMigrationHandler
 
 util.remove_http_proxy_env_vars()
 
-
+# DO NOT delete! 
+# The following code defines the user input parameters required when creating a new data input for the app.
 fields = [
     field.RestField(
         'interval',
