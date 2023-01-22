@@ -33,6 +33,11 @@ Of course you could run the app every 60 seconds, but in order to save resources
 - Verify SSL - This checkbox allows you to control wether you would like to include an SSL verification with every HTTP request made by this app.
 - Proxy - In any case you need to use a proxy server, simply configure your proxy under 'Configuration' tab in the app's main page.
 
+# Known issues
+* JCI's REST API current version suggests users to pull data once a day to avoid duplicated logs, due to lack of proper date-time (or any other index) information in their logs.
+
+* Due to JCI's current lack of proper date-time information pulling audits multiple times a day and not once a day may result in duplicated events. Hopefully this should be addressed in the future and I will be able to update the app accordingly.
+
 # Contact me
 Found a bug? want to request a new feature? missing data? API updated?
 You can contact me at: amitngithub23@gmail.com
